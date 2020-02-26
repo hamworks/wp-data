@@ -1,0 +1,9 @@
+# Created by .ignore support plugin (hsz.mobi)
+test/
+.babelrc
+.distignore
+.eslintrc.*
+package-lock.json
+webpack.config.js
+.idea
+*.zip
