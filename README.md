@@ -14,20 +14,18 @@ npm install @hamworks/wp-data --save
 
 React hooks for post meta.
 
-#### Usage
-
-##### Parameters
+#### Parameters
 
 - _key_ `string`: The post meta key.
 
-##### Returns
-
-##### Examples: 
+#### Returns
 
 - [ `any`, `Function` ]
 
   -   `any`: A post meta value.
   -   `Function`: Update function for meta value.
+
+#### Examples
 
 ```
 import { TextControl } from '@wordpress/components';
