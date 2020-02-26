@@ -1,6 +1,6 @@
 {
     "name": "@hamworks/wp-data",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "author": "Hiroshi Urabe <urabe@ham.works> (https://ham.works)",
     "license": "GPL-3.0+",
     "main": "build/index.js",
