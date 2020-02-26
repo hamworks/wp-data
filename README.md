@@ -1,6 +1,33 @@
 # @hamworks/wp-data
 
-## useage
+## Installation
+
+Install the module
+
+```bash
+npm install @hamworks/wp-data --save
+```
+
+## API
+
+### useMeta
+
+React hooks for post meta.
+
+#### Usage
+
+##### Parameters
+
+- _key_ `string`: The post meta key.
+
+##### Returns
+
+##### Examples: 
+
+- [ `any`, `Function` ]
+
+  -   `any`: A post meta value.
+  -   `Function`: Update function for meta value.
 
 ```
 import { TextControl } from '@wordpress/components';
