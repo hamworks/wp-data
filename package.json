@@ -12,8 +12,8 @@
     },
     "scripts": {
         "tsc": "tsc",
-        "start": "wp-scripts start",
-        "build": "wp-scripts build & tsc",
+        "start": "tsc --watch & wp-scripts start",
+        "build": "tsc && wp-scripts build",
         "lint": "wp-scripts lint-js --ext .js,.jsx,.ts,.tsx src/ --ignore-pattern 'src/@types/'"
     },
     "dependencies": {
