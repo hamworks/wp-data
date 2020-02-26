@@ -17,13 +17,13 @@
         "lint": "wp-scripts lint-js --ext .js,.jsx,.ts,.tsx src/ --ignore-pattern 'src/@types/'"
     },
     "dependencies": {
-        "@types/wordpress__data": "^4.6.6",
-        "@types/wordpress__element": "^2.4.0",
         "@wordpress/data": "^4.14.0",
         "@wordpress/element": "^2.11.0"
     },
     "devDependencies": {
         "@babel/preset-typescript": "^7.8.3",
+        "@types/wordpress__data": "^4.6.6",
+        "@types/wordpress__element": "^2.4.0",
         "@typescript-eslint/eslint-plugin": "^2.21.0",
         "@typescript-eslint/parser": "^2.21.0",
         "@wordpress/browserslist-config": "2.6.0",
