@@ -27,7 +27,7 @@ React hooks for post meta.
 
 #### Examples
 
-```
+```tsx
 import { TextControl } from '@wordpress/components';
 import { useMeta } from '@hamworks/wp-data';
 
