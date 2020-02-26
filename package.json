@@ -6,6 +6,10 @@
     "main": "build/index.js",
     "module": "esm/index.js",
     "types": "./types/index.d.ts",
+    "repository": {
+        "url": "git@github.com:team-hamworks/wp-data.git",
+        "type": "git"
+    },
     "scripts": {
         "tsc": "tsc",
         "start": "wp-scripts start",
@@ -26,5 +30,13 @@
         "@wordpress/eslint-plugin": "^4.0.0",
         "@wordpress/scripts": "^7.1.2",
         "typescript": "^3.8.2"
+    },
+    "release-it": {
+        "hooks": {
+            "before:bump": "npm run build"
+        },
+        "npm": {
+            "publish": true
+        }
     }
 }
