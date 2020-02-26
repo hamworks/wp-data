@@ -4,8 +4,8 @@
     "author": "Hiroshi Urabe <urabe@ham.works> (https://ham.works)",
     "license": "GPL-3.0+",
     "main": "build/index.js",
-    "module": "esm/index.js",
-    "types": "./types/index.d.ts",
+    "module": "build-module/index.js",
+    "types": "build-module/index.d.ts",
     "repository": {
         "url": "git@github.com:team-hamworks/wp-data.git",
         "type": "git"
