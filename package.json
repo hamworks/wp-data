@@ -5,6 +5,7 @@
     "license": "GPL-3.0+",
     "main": "build/index.js",
     "module": "esm/index.js",
+    "types": "./types/index.d.ts",
     "scripts": {
         "tsc": "tsc",
         "start": "wp-scripts start",
