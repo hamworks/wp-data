@@ -1,0 +1,26 @@
+{
+    "name": "@hamworks/wp-data",
+    "version": "0.0.1",
+    "author": "Hiroshi Urabe <urabe@ham.works> (https://ham.works)",
+    "license": "GPL-3.0+",
+    "main": "build/index.js",
+    "module": "esm/index.js",
+    "scripts": {
+        "tsc": "tsc",
+        "start": "wp-scripts start",
+        "build": "wp-scripts build & tsc",
+        "lint": "wp-scripts lint-js --ext .js,.jsx,.ts,.tsx src/ --ignore-pattern 'src/@types/'"
+    },
+    "dependencies": {
+        "@types/wordpress__data": "^4.6.6",
+        "@types/wordpress__element": "^2.4.0",
+        "@wordpress/data": "^4.14.0",
+        "@wordpress/element": "^2.11.0"
+    },
+    "devDependencies": {
+        "@babel/preset-typescript": "^7.8.3",
+        "@wordpress/browserslist-config": "2.6.0",
+        "@wordpress/scripts": "^7.1.2",
+        "typescript": "^3.8.2"
+    }
+}

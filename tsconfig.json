@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "noEmit": false,
+        "strict": false,
+        "moduleResolution": "node",
+        "isolatedModules": true,
+        "esModuleInterop": true,
+        "jsx": "react",
+        "baseUrl": "./",
+        "outDir": "build-module"
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
