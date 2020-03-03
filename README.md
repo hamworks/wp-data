@@ -34,7 +34,7 @@ import { TextControl } from '@wordpress/components';
 import { useMeta } from '@hamworks/wp-data';
 
 const FooControl = () => {
-	const [ foo, setFoo ] = useMeta<string>( 'foo' );
+	const [ foo, setFoo ] = useMeta( 'foo' );
 	return <TextControl label="Foo" type={ 'text' } onChange={ setFoo } value={ foo } />;
 };
 ```
